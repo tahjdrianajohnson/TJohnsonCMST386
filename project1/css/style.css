@@ -1,0 +1,129 @@
+header{
+background-color: lightgray;
+background-size: auto;
+background-repeat: no-repeat;
+}
+nav{
+  display: block;
+}
+body{
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  color: black;
+}
+h1{
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24pt;
+}
+h2{
+  color: darkslategrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20pt;
+}
+h3{
+  color: darkslategrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 18pt;
+}
+h4{
+  color: darkslategrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16pt;
+}
+h5{
+  color: darkslategrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14pt;
+}
+h6{
+  color: darkslategrey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 13pt;
+}
+p{
+  color: darkslategrey;
+  font-family: sans-serif;
+  font-size: 12pt;
+  margin: 16pt;
+}
+img{
+  padding: 30pt;
+  padding-bottom: 10pt;
+}
+ul{
+  color: darkslategrey;
+  font-family: sans-serif;
+  font-size: 12pt;
+  margin: 16pt;
+}
+li{
+  color: darkslategrey;
+  font-family: sans-serif;
+  font-size: 12pt;
+  margin: 16pt;
+}
+figcaption{
+  font-size: 10pt;
+}
+a{
+  background-color: lightgray;
+  border-radius: 12px;
+  padding: 30pt;
+  padding-bottom: 0pt;
+  padding-top: 0pt;
+  text-align: center;
+}
+footer{
+  font-size: 10pt;
+  font-style: italic;
+  position: relative;
+  bottom: 0;
+}
+
+.nav-links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  display: flex;
+}
+.nav-links li{
+  position: relative;
+}
+.nav-links a{
+  display: block;
+  color: whitesmoke;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-links a:hover{
+  background-color: black;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.dropdown-content a{
+  color: whitesmoke;
+  padding: 12px 16px;
+}
+.dropdown-content a:hover{
+background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
